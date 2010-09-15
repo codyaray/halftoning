@@ -1,0 +1,21 @@
+% Image Printing Based on Halftoning
+% Cody A. Ray, codyaray@drexel.edu
+% April 29, 2010
+%
+% Sample usage of the halftone command
+
+% clearing memory and command window
+clc; clear all; close all;
+
+% input image
+%file_in  = 'football.jpg';
+%path_in   = ['../docs/report/' file_in];
+%in_img    = imread(path_in);
+%figure, imshow(in_img),  title('Input Image');
+
+% output halftone
+%file_out = ['halftone-' file_in];
+%path_out  = ['../docs/report/' file_out];
+out_img   = halftone(in_img)
+%figure, imshow(out_img), title('Halftoned Image');
+%imwrite(out_img, path_out);
